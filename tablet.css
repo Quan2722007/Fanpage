@@ -47,6 +47,35 @@
     max-width: 720px;
     width: 100%;
   }
+  .navbar {
+  position: relative;
+}
+/* Ẩn icon ba gạch trên màn hình lớn */
+.menu-toggle {
+  display: none;
+}
+
+/* Menu desktop hiển thị ngang */
+.nav-list {
+  display: flex; /* hàng ngang */
+  flex-direction: row;
+  gap: 30px; /* khoảng cách giữa các item */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style chữ menu */
+.nav-list li a {
+  text-decoration: none; /* bỏ gạch chân */
+  color: black; /* màu chữ bạn muốn (mặc định xanh là do <a>) */
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.nav-list li a:hover {
+  color: #ff6600; /* màu khi hover */
+}
   .search {
     position: relative;
     background-color: #f1f1f1;
@@ -282,5 +311,6 @@
     width: 100vw;
   }
 }
+
 
 

@@ -346,8 +346,12 @@
     color: white;
     border: solid 1px;
   }
-  .size {
+  .size_1 {
     font-size: 19px;
+  }
+  .size_2 {
+    font-size: 15px;
+    font-weight: 500;
   }
   .td__size {
     font-size: 30px;
@@ -360,5 +364,6 @@
     width: 100%;
   }
 }
+
 
 

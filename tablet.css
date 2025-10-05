@@ -32,7 +32,7 @@
     height: 600px;
   }
   .container__background {
-    background-image: url("pictures/ChatGPT Image 00_32_31 1 thg 10, 2025.png");
+    background-image: url("ChatGPT Image 00_32_31 1 thg 10, 2025.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,3 +282,4 @@
     width: 100vw;
   }
 }
+

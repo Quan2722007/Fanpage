@@ -63,7 +63,7 @@ div {
   text-decoration: none; /* bỏ gạch chân */
   color: black; /* màu chữ bạn muốn (mặc định xanh là do <a>) */
   font-weight: 600;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .nav-list li a:hover {
@@ -313,5 +313,6 @@ i {
   flex-wrap: wrap;
   width: 100vw;
 }
+
 
 
